@@ -13,7 +13,7 @@ export default function About() {
         <SectionHeading
           eyebrow="About Dr. Abhilekh"
           title="A surgeon's precision. A physician's patience."
-          description="Fifteen years dedicated exclusively to urology — combining advanced surgical technique with a practice built on listening first."
+          description="Over a decade dedicated to surgery and urology — combining advanced surgical technique with a practice built on listening first."
         />
 
         <div className="mt-16 grid gap-14 lg:grid-cols-12 lg:gap-10">
@@ -60,12 +60,13 @@ export default function About() {
               transition={{ duration: 0.6 }}
               className="text-base sm:text-lg leading-relaxed text-clinic-slate"
             >
-              Dr. Abhilekh is a consultant urologist trained in general
-              surgery, urology, and robotic-assisted procedures. After
-              completing his fellowship, he built a practice around a simple
-              principle: every patient deserves a clear explanation, a
-              considered plan, and a treatment matched precisely to their
-              condition — not the other way around.
+              Dr. Abhilekh is a consultant urologist and renal transplant
+              surgeon trained in general surgery, urology, and renal
+              transplantation. Over more than a decade in practice, he has
+              built his work around a simple principle: every patient
+              deserves a clear explanation, a considered plan, and a
+              treatment matched precisely to their condition — not the other
+              way around.
             </motion.p>
 
             <div className="mt-10 grid gap-6 sm:grid-cols-2">

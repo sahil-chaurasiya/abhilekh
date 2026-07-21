@@ -8,23 +8,23 @@ import { clinicHours } from "@/lib/data";
 export default function ClinicInfo() {
   const mapSrc =
     process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED ||
-    "https://www.google.com/maps?q=Indore,Madhya+Pradesh&output=embed";
+    "https://www.google.com/maps?q=Sagar+Multispeciality+Hospital,Bhopal,Madhya+Pradesh&output=embed";
 
   const infoItems = [
     {
       icon: MapPin,
       title: "Address",
-      lines: ["12 Residency Road, Near City Hospital", "Indore, Madhya Pradesh 452001"],
+      lines: ["Sagar Multispeciality Hospital, Narmadapuram Road", "Bhopal, Madhya Pradesh 462026"],
     },
     {
       icon: PhoneCall,
       title: "Phone",
-      lines: [process.env.NEXT_PUBLIC_CLINIC_PHONE || "+91 123 456 7890", "24×7 Emergency Line"],
+      lines: [process.env.NEXT_PUBLIC_CLINIC_PHONE || "+91 85609 44006", "+91 96921 76877"],
     },
     {
       icon: Mail,
       title: "Email",
-      lines: ["care@drabhilekh.com"],
+      lines: ["abhilekhtripathi@gmail.com"],
     },
     {
       icon: ShieldCheck,

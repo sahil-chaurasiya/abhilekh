@@ -6,8 +6,8 @@ import { ArrowUp, CalendarPlus, MessageCircle, PhoneCall } from "lucide-react";
 
 export default function FloatingActions() {
   const [showTop, setShowTop] = useState(false);
-  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "919999999999";
-  const phone = process.env.NEXT_PUBLIC_CLINIC_PHONE || "+911234567890";
+  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "918560944006";
+  const phone = process.env.NEXT_PUBLIC_CLINIC_PHONE || "+918560944006";
 
   useEffect(() => {
     const onScroll = () => setShowTop(window.scrollY > 600);

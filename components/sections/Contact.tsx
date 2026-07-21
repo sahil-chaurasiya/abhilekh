@@ -51,20 +51,20 @@ export default function Contact() {
     {
       icon: PhoneCall,
       label: "Call the clinic",
-      value: process.env.NEXT_PUBLIC_CLINIC_PHONE || "+91 123 456 7890",
-      href: `tel:${process.env.NEXT_PUBLIC_CLINIC_PHONE || "+911234567890"}`,
+      value: process.env.NEXT_PUBLIC_CLINIC_PHONE || "+91 85609 44006",
+      href: `tel:${process.env.NEXT_PUBLIC_CLINIC_PHONE || "+918560944006"}`,
     },
     {
       icon: MessageCircle,
       label: "WhatsApp",
       value: "Message us directly",
-      href: `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "919999999999"}`,
+      href: `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "918560944006"}`,
     },
     {
       icon: Mail,
       label: "Email",
-      value: "care@drabhilekh.com",
-      href: "mailto:care@drabhilekh.com",
+      value: "abhilekhtripathi@gmail.com",
+      href: "mailto:abhilekhtripathi@gmail.com",
     },
   ];
 

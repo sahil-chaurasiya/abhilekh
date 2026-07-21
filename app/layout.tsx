@@ -26,19 +26,19 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.drabhilekh.com"
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Dr. Abhilekh | Consultant Urologist & Robotic Surgeon",
+    default: "Dr. Abhilekh | Consultant Urologist & Renal Transplant Surgeon",
     template: "%s | Dr. Abhilekh, Consultant Urologist",
   },
   description:
-    "Dr. Abhilekh is a leading consultant urologist specialising in kidney stone treatment, laser and robotic surgery, prostate care, and male reproductive health. Book a private consultation today.",
+    "Dr. Abhilekh is a consultant urologist and renal transplant surgeon in Bhopal, specialising in kidney stone treatment, endo-urology, laparoscopic and open urological surgery, uro-oncology, and renal transplantation. Book a private consultation today.",
   keywords: [
     "Dr. Abhilekh",
     "urologist",
     "kidney stone treatment",
-    "robotic surgery urology",
+    "renal transplant surgeon",
     "prostate specialist",
     "laser urology surgery",
-    "urology clinic",
+    "urology clinic Bhopal",
     "male infertility specialist",
   ],
   authors: [{ name: "Dr. Abhilekh" }],
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: siteUrl,
-    title: "Dr. Abhilekh | Consultant Urologist & Robotic Surgeon",
+    title: "Dr. Abhilekh | Consultant Urologist & Renal Transplant Surgeon",
     description:
-      "A private urology practice offering advanced, compassionate care in kidney stone treatment, laser and robotic surgery, and men's reproductive health.",
+      "A private urology practice offering advanced, compassionate care in kidney stone treatment, laparoscopic and laser surgery, uro-oncology, and renal transplantation.",
     siteName: "Dr. Abhilekh Urology Clinic",
     images: [
       {
@@ -65,9 +65,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dr. Abhilekh | Consultant Urologist & Robotic Surgeon",
+    title: "Dr. Abhilekh | Consultant Urologist & Renal Transplant Surgeon",
     description:
-      "Advanced, compassionate urology care — kidney stones, laser and robotic surgery, prostate and men's health.",
+      "Advanced, compassionate urology care — kidney stones, laparoscopic and laser surgery, prostate and men's health.",
     images: ["/images/hero-doctor.webp"],
   },
   robots: {
@@ -97,13 +97,13 @@ export default function RootLayout({
     medicalSpecialty: "Urology",
     image: `${siteUrl}/images/hero-doctor.webp`,
     url: siteUrl,
-    telephone: process.env.NEXT_PUBLIC_CLINIC_PHONE || "+91-123-456-7890",
+    telephone: process.env.NEXT_PUBLIC_CLINIC_PHONE || "+91-85609-44006",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "12 Residency Road",
-      addressLocality: "Indore",
+      streetAddress: "Sagar Multispeciality Hospital, Narmadapuram Road",
+      addressLocality: "Bhopal",
       addressRegion: "Madhya Pradesh",
-      postalCode: "452001",
+      postalCode: "462026",
       addressCountry: "IN",
     },
   };
@@ -114,14 +114,14 @@ export default function RootLayout({
     name: "Dr. Abhilekh Urology Clinic",
     image: `${siteUrl}/images/clinic-interior.webp`,
     url: siteUrl,
-    telephone: process.env.NEXT_PUBLIC_CLINIC_PHONE || "+91-123-456-7890",
+    telephone: process.env.NEXT_PUBLIC_CLINIC_PHONE || "+91-85609-44006",
     priceRange: "$$$",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "12 Residency Road",
-      addressLocality: "Indore",
+      streetAddress: "Sagar Multispeciality Hospital, Narmadapuram Road",
+      addressLocality: "Bhopal",
       addressRegion: "Madhya Pradesh",
-      postalCode: "452001",
+      postalCode: "462026",
       addressCountry: "IN",
     },
     openingHoursSpecification: [

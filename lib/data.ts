@@ -103,8 +103,8 @@ export const whyChooseUs: FeatureItem[] = [
   },
   {
     id: "experience",
-    title: "15+ Years Experience",
-    description: "Over a decade and a half dedicated exclusively to urological medicine and surgery.",
+    title: "11+ Years Experience",
+    description: "Over a decade dedicated to surgery and urological medicine, from general surgery to advanced urology.",
     icon: "Award",
   },
   {
@@ -156,24 +156,19 @@ export const treatmentProcess: TimelineStep[] = [
 
 export const education: EducationItem[] = [
   {
-    year: "2007",
+    year: "2009",
     title: "MBBS",
-    institution: "Grant Medical College, Mumbai",
+    institution: "Assam Medical College, Dibrugarh",
   },
   {
-    year: "2011",
+    year: "2015",
     title: "MS General Surgery",
-    institution: "Seth GS Medical College, Mumbai",
+    institution: "JLN Medical College, Ajmer",
   },
   {
-    year: "2014",
-    title: "MCh Urology",
-    institution: "Post Graduate Institute of Medical Education & Research, Chandigarh",
-  },
-  {
-    year: "2016",
-    title: "Fellowship in Robotic Surgery",
-    institution: "Fortis Memorial Research Institute, Gurugram",
+    year: "2023",
+    title: "MCh Urology & Renal Transplantation",
+    institution: "SCB Medical College and Hospital, Cuttack, Odisha",
   },
 ];
 
@@ -260,7 +255,7 @@ export const faqs: FaqItem[] = [
 
 export const stats: StatItem[] = [
   { label: "Patients Treated", value: 18000, suffix: "+" },
-  { label: "Years of Experience", value: 15, suffix: "+" },
+  { label: "Years of Experience", value: 11, suffix: "+" },
   { label: "Successful Surgeries", value: 9500, suffix: "+" },
   { label: "Patient Satisfaction", value: 98, suffix: "%" },
 ];

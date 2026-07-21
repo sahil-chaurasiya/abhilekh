@@ -39,7 +39,7 @@ export default function Hero() {
             className="inline-flex items-center gap-2 rounded-full glass-dark px-4 py-2 text-xs font-medium uppercase tracking-[0.2em] text-clinic-emerald-light"
           >
             <ShieldCheck size={14} />
-            Trusted Urological Care Since 2011
+            Trusted Urological Care Since 2015
           </motion.div>
 
           <h1 className="mt-6 font-display text-4xl sm:text-5xl lg:text-[3.4rem] font-medium leading-[1.08]">
@@ -58,9 +58,9 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 1.1 }}
             className="mt-6 max-w-lg text-base sm:text-lg leading-relaxed text-white/70"
           >
-            Dr. Abhilekh brings fifteen years of surgical expertise and robotic
-            precision to kidney stones, prostate care, and men&apos;s health —
-            in a private clinic built around your comfort.
+            Dr. Abhilekh brings over eleven years of surgical expertise across
+            urology and renal transplantation to kidney stones, prostate care,
+            and men&apos;s health — in a private clinic built around your comfort.
           </motion.p>
 
           <motion.div
@@ -142,7 +142,7 @@ export default function Hero() {
             className="absolute -top-6 -right-4 glass rounded-2xl px-5 py-3 shadow-premium sm:-right-8"
           >
             <p className="font-display text-xl font-semibold text-clinic-navy">
-              15+ Yrs
+              11+ Yrs
             </p>
             <p className="text-xs text-clinic-slate">Surgical Experience</p>
           </motion.div>
