@@ -43,10 +43,12 @@ export default function Navbar() {
         >
           <a
             href="#hero"
-            className="font-display text-lg sm:text-xl font-semibold text-clinic-navy tracking-tight"
+            className={`font-display text-lg sm:text-xl font-semibold tracking-tight transition-colors duration-500 ${
+              scrolled ? "text-clinic-navy" : "text-white"
+            }`}
           >
             Dr. Abhilekh
-            <span className="block text-[10px] font-body font-medium tracking-[0.2em] uppercase text-clinic-emerald">
+            <span className="block text-[10px] font-body font-medium tracking-[0.2em] uppercase text-clinic-emerald-light">
               Consultant Urologist
             </span>
           </a>
@@ -57,8 +59,12 @@ export default function Navbar() {
                 key={item.id}
                 href={`#${item.id}`}
                 data-active={activeId === item.id}
-                className={`nav-link text-sm font-medium transition-colors ${
-                  activeId === item.id ? "text-clinic-emerald" : "text-clinic-navy/80 hover:text-clinic-navy"
+                className={`nav-link text-sm font-medium transition-colors duration-500 ${
+                  activeId === item.id
+                    ? "text-clinic-emerald-light"
+                    : scrolled
+                    ? "text-clinic-navy/80 hover:text-clinic-navy"
+                    : "text-white/80 hover:text-white"
                 }`}
               >
                 {item.label}
@@ -69,9 +75,11 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-3">
             <a
               href={`tel:${process.env.NEXT_PUBLIC_CLINIC_PHONE || "+911234567890"}`}
-              className="flex items-center gap-2 text-sm font-medium text-clinic-navy"
+              className={`flex items-center gap-2 text-sm font-medium transition-colors duration-500 ${
+                scrolled ? "text-clinic-navy" : "text-white"
+              }`}
             >
-              <PhoneCall size={16} className="text-clinic-emerald" />
+              <PhoneCall size={16} className="text-clinic-emerald-light" />
               Call Now
             </a>
             <a
@@ -83,7 +91,9 @@ export default function Navbar() {
           </div>
 
           <button
-            className="lg:hidden text-clinic-navy p-2"
+            className={`lg:hidden p-2 transition-colors duration-500 ${
+              scrolled ? "text-clinic-navy" : "text-white"
+            }`}
             onClick={() => setMobileOpen((v) => !v)}
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
             aria-expanded={mobileOpen}

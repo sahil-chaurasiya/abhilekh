@@ -33,8 +33,8 @@ export default function Hero() {
         {/* Text column */}
         <div className="text-white">
           <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ y: 16 }}
+            animate={{ y: 0 }}
             transition={{ duration: 0.6 }}
             className="inline-flex items-center gap-2 rounded-full glass-dark px-4 py-2 text-xs font-medium uppercase tracking-[0.2em] text-clinic-emerald-light"
           >
@@ -53,8 +53,8 @@ export default function Hero() {
           </h1>
 
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ y: 20 }}
+            animate={{ y: 0 }}
             transition={{ duration: 0.6, delay: 1.1 }}
             className="mt-6 max-w-lg text-base sm:text-lg leading-relaxed text-white/70"
           >
@@ -64,8 +64,8 @@ export default function Hero() {
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ y: 20 }}
+            animate={{ y: 0 }}
             transition={{ duration: 0.6, delay: 1.3 }}
             className="mt-9 flex flex-wrap items-center gap-4"
           >
@@ -78,8 +78,8 @@ export default function Hero() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ y: 20 }}
+            animate={{ y: 0 }}
             transition={{ duration: 0.6, delay: 1.5 }}
             className="mt-10 flex flex-wrap items-center gap-8"
           >
@@ -99,8 +99,8 @@ export default function Hero() {
 
         {/* Image column */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.92 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ scale: 0.92 }}
+          animate={{ scale: 1 }}
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
           className="relative mx-auto w-full max-w-md lg:max-w-none"
         >
@@ -118,8 +118,8 @@ export default function Hero() {
 
           {/* Floating stat card */}
           <motion.div
-            initial={{ opacity: 0, x: -30, y: 20 }}
-            animate={{ opacity: 1, x: 0, y: 0 }}
+            initial={{ x: -30, y: 20 }}
+            animate={{ x: 0, y: 0 }}
             transition={{ duration: 0.7, delay: 1 }}
             className="absolute -left-6 bottom-10 glass rounded-2xl px-5 py-4 shadow-premium sm:-left-10"
           >
@@ -136,8 +136,8 @@ export default function Hero() {
 
           {/* Floating badge */}
           <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ y: -20 }}
+            animate={{ y: 0 }}
             transition={{ duration: 0.7, delay: 1.2 }}
             className="absolute -top-6 -right-4 glass rounded-2xl px-5 py-3 shadow-premium sm:-right-8"
           >
@@ -151,8 +151,8 @@ export default function Hero() {
 
       {/* Scroll cue */}
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
+        initial={{ y: -10 }}
+        animate={{ y: 0 }}
         transition={{ delay: 1.8 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/50"
         aria-hidden="true"

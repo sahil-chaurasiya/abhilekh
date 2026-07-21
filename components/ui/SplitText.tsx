@@ -9,17 +9,15 @@ interface SplitTextProps {
 }
 
 const container = {
-  hidden: { opacity: 0 },
+  hidden: {},
   visible: (delay: number) => ({
-    opacity: 1,
     transition: { staggerChildren: 0.028, delayChildren: delay },
   }),
 };
 
 const child = {
-  hidden: { opacity: 0, y: 24, rotateX: -40 },
+  hidden: { y: 24, rotateX: -40 },
   visible: {
-    opacity: 1,
     y: 0,
     rotateX: 0,
     transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] as const },

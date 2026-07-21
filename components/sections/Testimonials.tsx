@@ -38,13 +38,13 @@ export default function Testimonials() {
         />
 
         <div
-          className="relative mx-auto mt-16 max-w-3xl"
+          className="relative mx-auto mt-20 max-w-3xl"
           onMouseEnter={() => setPaused(true)}
           onMouseLeave={() => setPaused(false)}
         >
           <Quote
-            className="absolute -top-8 left-1/2 -translate-x-1/2 text-clinic-emerald/30"
-            size={56}
+            className="absolute -top-16 left-1/2 -translate-x-1/2 text-clinic-emerald/30"
+            size={48}
             aria-hidden="true"
           />
           <AnimatePresence mode="wait">
