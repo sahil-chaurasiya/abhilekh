@@ -5,7 +5,6 @@ import Expertise from "@/components/sections/Expertise";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Technology from "@/components/sections/Technology";
 import TreatmentProcess from "@/components/sections/TreatmentProcess";
-import BeforeAfter from "@/components/sections/BeforeAfter";
 import Gallery from "@/components/sections/Gallery";
 import Testimonials from "@/components/sections/Testimonials";
 import ClinicInfo from "@/components/sections/ClinicInfo";
@@ -23,7 +22,6 @@ export default function Home() {
       <WhyChooseUs />
       <Technology />
       <TreatmentProcess />
-      <BeforeAfter />
       <Gallery />
       <Testimonials />
       <ClinicInfo />
