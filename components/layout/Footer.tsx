@@ -20,10 +20,13 @@ export default function Footer() {
       <div className="relative container-clinic py-16 lg:py-20">
         <div className="grid gap-12 lg:grid-cols-4">
           <div className="lg:col-span-2">
-            <p className="font-display text-2xl font-semibold">Dr. Abhilekh</p>
-            <p className="mt-1 text-xs uppercase tracking-[0.25em] text-clinic-emerald-light">
-              Consultant Urologist
-            </p>
+            <Image
+              src="/images/logo-full-white.png"
+              alt="Dr. Abhilekh Tripathi — Urologist & Renal Transplant Surgeon"
+              width={1400}
+              height={496}
+              className="h-14 w-auto object-contain"
+            />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/60">
               A private urology practice dedicated to advanced, compassionate
               care — from kidney stone treatment to robotic surgery and men's
