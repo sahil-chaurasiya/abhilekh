@@ -11,74 +11,49 @@ import type {
 
 export const expertiseItems: ExpertiseItem[] = [
   {
-    id: "kidney-stones",
-    title: "Kidney Stones",
-    description:
-      "Precise, minimally invasive stone removal using laser lithotripsy and RIRS, tailored to stone size and location.",
+    id: "kidney-stone",
+    title: "Kidney Stone",
+    tagline: "PCNL | RIRS | URSL",
+    description: "Laser & Endoscopic Stone Treatment",
     icon: "Gem",
   },
   {
-    id: "prostate-disorders",
-    title: "Prostate Disorders",
-    description:
-      "Comprehensive care for BPH and prostate conditions, from medical management to laser enucleation.",
+    id: "enlarged-prostate",
+    title: "Enlarged Prostate",
+    tagline: "TURP | LASER",
+    description: "Advanced Treatment for BPH & Prostate Problems",
     icon: "Activity",
   },
   {
-    id: "laser-surgery",
-    title: "Laser Surgery",
-    description:
-      "Holmium and thulium laser procedures that reduce bleeding, pain, and recovery time for our patients.",
-    icon: "Zap",
-  },
-  {
-    id: "uti",
-    title: "Urinary Tract Infections",
-    description:
-      "Rapid diagnosis and treatment of recurrent UTIs, with a focus on identifying and resolving root causes.",
-    icon: "ShieldCheck",
-  },
-  {
-    id: "male-infertility",
-    title: "Male Infertility",
-    description:
-      "Discreet, evidence-based evaluation and treatment for couples navigating fertility concerns.",
-    icon: "HeartPulse",
-  },
-  {
-    id: "kidney-cancer",
-    title: "Kidney Cancer",
-    description:
-      "Nerve- and organ-sparing surgical approaches designed around long-term kidney function and recovery.",
+    id: "bladder-kidney-cancer",
+    title: "Bladder & Kidney Cancer",
+    tagline: "TURBT | ONCOLOGY",
+    description: "Complete Care for Uro-oncology Conditions",
     icon: "Ribbon",
   },
   {
-    id: "bladder-disorders",
-    title: "Bladder Disorders",
-    description:
-      "Advanced management of bladder dysfunction, from overactive bladder to reconstructive procedures.",
-    icon: "CircleDot",
+    id: "laparoscopic-urology",
+    title: "Laparoscopic Urology",
+    description: "Minimally Invasive, Maximum Precision",
+    icon: "Search",
   },
   {
-    id: "urinary-incontinence",
-    title: "Urinary Incontinence",
-    description:
-      "Tailored treatment plans that restore confidence and quality of life, from therapy to surgical correction.",
-    icon: "Waves",
+    id: "renal-transplant",
+    title: "Renal Transplant",
+    description: "Kidney Transplant & Post-Transplant Care",
+    icon: "HeartPulse",
   },
   {
-    id: "robotic-surgery",
-    title: "Robotic Surgery",
-    description:
-      "Da Vinci-assisted procedures offering unmatched precision, smaller incisions, and faster recovery.",
-    icon: "Cpu",
+    id: "andrology-male-infertility",
+    title: "Andrology & Male Infertility",
+    description: "Comprehensive Care for Male Reproductive Health",
+    icon: "Mars",
   },
   {
-    id: "erectile-dysfunction",
-    title: "Erectile Dysfunction",
-    description:
-      "Confidential consultations and modern treatment pathways designed around each patient's goals.",
-    icon: "Heart",
+    id: "reconstructive-urology",
+    title: "Reconstructive Urology",
+    description: "Complex Reconstructions",
+    icon: "ShieldCheck",
   },
 ];
 

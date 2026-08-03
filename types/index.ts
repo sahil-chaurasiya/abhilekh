@@ -1,6 +1,7 @@
 export interface ExpertiseItem {
   id: string;
   title: string;
+  tagline?: string;
   description: string;
   icon: string;
 }

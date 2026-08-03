@@ -40,6 +40,11 @@ export default function Expertise() {
                 <h3 className="relative mt-6 font-display text-xl font-semibold text-clinic-navy">
                   {item.title}
                 </h3>
+                {item.tagline && (
+                  <p className="relative mt-1 text-xs font-semibold uppercase tracking-wide text-clinic-emerald">
+                    {item.tagline}
+                  </p>
+                )}
                 <p className="relative mt-3 text-sm leading-relaxed text-clinic-slate">
                   {item.description}
                 </p>
