@@ -77,10 +77,11 @@ export default function About() {
               className="mt-6 space-y-3"
             >
               {[
-                "MCh (Urology & Renal Transplantation) Surgeon",
+                "MCh (Urology & Renal Transplantation)",
+                "Consultant Urologist & Renal Transplant Surgeon",
                 "Expertise in Endourology, Laparoscopy & Renal Transplantation",
                 "Trained in advanced laparoscopic & endoscopic procedures",
-                "Dedicated to providing ethical, evidence-based & compassionate care",
+                "Dedicated to providing ethical, evidence-based & compassionate care"
               ].map((point) => (
                 <li key={point} className="flex items-start gap-3">
                   <CheckCircle2
