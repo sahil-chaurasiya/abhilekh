@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { GraduationCap, Target, Eye } from "lucide-react";
+import { GraduationCap, Target, Eye, CheckCircle2 } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { education } from "@/lib/data";
 
@@ -16,9 +16,9 @@ export default function About() {
           description="Over a decade dedicated to surgery and urology — combining advanced surgical technique with a practice built on listening first."
         />
 
-        <div className="mt-16 grid gap-14 lg:grid-cols-12 lg:gap-10">
+        <div className="mt-16 grid gap-14 lg:grid-cols-12 lg:gap-10 lg:items-start">
           {/* Images */}
-          <div className="lg:col-span-5 relative">
+          <div className="lg:col-span-5 relative lg:sticky lg:top-28 lg:self-start">
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -68,6 +68,31 @@ export default function About() {
               treatment matched precisely to their condition — not the other
               way around.
             </motion.p>
+
+            <motion.ul
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="mt-6 space-y-3"
+            >
+              {[
+                "MCh (Urology & Renal Transplantation) Surgeon",
+                "Expertise in Endourology, Laparoscopy & Renal Transplantation",
+                "Trained in advanced laparoscopic & endoscopic procedures",
+                "Dedicated to providing ethical, evidence-based & compassionate care",
+              ].map((point) => (
+                <li key={point} className="flex items-start gap-3">
+                  <CheckCircle2
+                    size={20}
+                    className="mt-0.5 shrink-0 text-clinic-emerald"
+                  />
+                  <span className="text-sm sm:text-base leading-relaxed text-clinic-slate">
+                    {point}
+                  </span>
+                </li>
+              ))}
+            </motion.ul>
 
             <div className="mt-10 grid gap-6 sm:grid-cols-2">
               <motion.div
